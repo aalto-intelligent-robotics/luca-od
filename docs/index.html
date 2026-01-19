@@ -1,0 +1,62 @@
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Localization Under Consistent Assumptions Over Dynamics</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<html lang="en">
+    <body>
+        <h1 class="title">Localization Under Consistent Assumptions Over Dynamics</h1>
+        <div class="center">
+            <div>
+                <img class="header-img" src="img/header.png">
+            </div>
+            <div class="break"></div>
+            <div class="buttonbox">
+                <a href="https://arxiv.org/abs/2305.16702" class="button">paper</a>
+            </div>
+            <div class="break"></div>
+            <div class="authorbox">
+                <b>Authors:</b>
+                <a class="link" href="https://research.aalto.fi/en/persons/matti-pekkanen">Matti Pekkanen</a> <a
+                    class="link" href="mailto:matti.pekkanen@aalto.fi">(matti.pekkanen@aalto.fi)</a>,
+                <a class="link" href="https://research.aalto.fi/en/persons/francesco-verdoja">Francesco Verdoja</a>, and
+                <a class="link" href="https://research.aalto.fi/en/persons/ville-kyrki">Ville Kyrki</a>
+                <br />
+                <b>Affiliation:</b> School of Electrical Engineering, Aalto University, Finland
+            </div>
+            <div class="break"></div>
+            <p class="abstract">
+                Accurate maps are a prerequisite for virtually all mobile robot tasks. Most state-of-the-art maps assume a static world;
+                therefore, dynamic objects are filtered out of the measurements. However, this division ignores movable but
+                non-moving---i.e., semi-static---objects, which are usually recorded in the map and treated as static objects, violating
+                the static world assumption and causing errors in the localization. This paper presents a method for consistently
+                modeling moving and movable objects to match the map and measurements. This reduces the error resulting from
+                inconsistent categorization and treatment of non-static measurements. A semantic segmentation network is used to
+                categorize the measurements into static and semi-static classes, and a background subtraction filter is used to remove
+                dynamic measurements. Finally, we show that consistent assumptions over dynamics improve localization accuracy when
+                compared against a state-of-the-art baseline solution using real-world data from the Oxford Radar RobotCar data set.
+            </p>
+            <h2>Citation</h2>
+            <p>
+                If you find this work useful, please consider citing:
+            </p>
+            <code class="language-bibtex">
+                @inproceedings{pekkanen_2024_object_oriented_mapping,<br/>
+                &emsp;&emsp;&emsp;&emsp;title = {Localization Under Consistent Assumptions Over Dynamics},<br/>
+                &emsp;&emsp;&emsp;&emsp;booktitle = {Proceedings of the IEEE International Conference on Multisensor Fusion and Integration (MFI)},<br/>
+                &emsp;&emsp;&emsp;&emsp;author = {Pekkanen, Matti and Verdoja, Francesco and Kyrki, Ville},<br/>
+                &emsp;&emsp;&emsp;&emsp;month = {Sep.},<br/>
+                &emsp;&emsp;&emsp;&emsp;year = {2024},<br/>
+                &emsp;&emsp;&emsp;&emsp;address = {Pilsen, Czechia}<br/>
+                }
+            </code>
+            <h2>Acknowledgements</h2>
+            <p>
+                This work was supported by Business Finland, decision 9249/31/2021. We gratefully acknowledge the support of NVIDIA
+                Corporation with the donation of the Titan Xp GPU used for this research.
+            </p>
+        </div>
+    </body>
+</html>
